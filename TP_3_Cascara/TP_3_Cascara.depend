@@ -23,15 +23,16 @@
 	<stdlib.h>
 	"funciones.h"
 
-1508635778 source:f:\tp_3_cascara\funciones.c
+1508770156 source:c:\users\crisbagio\desktop\tp_3_cascara\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
 
-1508635760 f:\tp_3_cascara\funciones.h
+1508770997 c:\users\crisbagio\desktop\tp_3_cascara\funciones.h
 
-1508719488 source:f:\tp_3_cascara\main.c
+1508771005 source:c:\users\crisbagio\desktop\tp_3_cascara\funciones.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"funciones.h"
 

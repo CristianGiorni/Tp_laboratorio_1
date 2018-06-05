@@ -9,9 +9,9 @@ int main()
     char seguir='s';
     int opcion=0;
     EMovie pelicula[3];
-
+    cargarpeliculas(pelicula);
     inicializarestados(pelicula);
-    cargarpeliculas(*pelicula);
+
     while(seguir=='s')
     {
         printf("1- Agregar pelicula\n");
@@ -28,9 +28,10 @@ int main()
                 agregarPelicula(pelicula);
                 break;
             case 2:
-
+                borrarPelicula(pelicula);
                 break;
             case 3:
+                modificarPelicula(pelicula);
                break;
             case 4:
                 generarPagina(pelicula);

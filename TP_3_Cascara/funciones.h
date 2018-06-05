@@ -11,7 +11,7 @@ typedef struct{
 }EMovie;
 void inicializarestados(EMovie movie[]);
 void guardarpeliculas(EMovie movie[]);
-void cargarpeliculas(EMovie movie);
+void cargarpeliculas(EMovie* movie);
 int buscarlibre(EMovie movie[]);
 /**
  *  Agrega una pelicula al archivo binario
@@ -25,7 +25,8 @@ int agregarPelicula(EMovie movie[]);
  *  @param movie la estructura a ser eliminada al archivo
  *  @return retorna 1 o 0 de acuerdo a si pudo eliminar la pelicula o no
  */
-int borrarPelicula(EMovie movie);
+int borrarPelicula(EMovie movie[]);
+int modificarPelicula(EMovie movie[]);
 
 /**
  *  Genera un archivo html a partir de las peliculas cargadas en el archivo binario.
